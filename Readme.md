@@ -15,6 +15,16 @@ Dashboard is protected with user auth, so whenever user come into `Dashboard` au
 open the [Landing page](http://example.com:3083/) with your browser to see the result.
 
 
+### Sub Domain changes
+
+- Go to your `/etc/hosts` add below record
+
+```
+127.0.0.1    example.com
+127.0.0.1    subdomain.example.com
+```
+
+
 ## Authors
 
 - [@Nikunj Maniya](https://github.com/nikmaniya/)
